@@ -9,7 +9,7 @@ export default class Character {
   }
 }
 
-Character.prototype.expGain(num) = function(){
+Character.prototype.expGain = function(num){
   this.experience += num;
   if (this.experience >= 100){
     this.experience === 0
