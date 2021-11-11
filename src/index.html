@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super Chef Wars</title>
+</head>
+<body>
+  <h1>Super Chef Wars</h1>
+  <div id="levelUp">
+    <form id="skillChoice">
+      <label>Select Skill to Improve</label>
+      <input type="radio" id="stamina" name="skill" value="stamina" checked>
+      <input type="radio" id="presentation" name="skill" value="presentation">
+      <input type="radio" id="baking" name="skill" value="baking">
+      <input type="radio" id="flavors" name="skill" value="flavors">
+      <button type="submit">Choose Skill</button>
+    </form>
+  </div>
+  <form id="characterForm">
+    <h2>Select Your Character:</h2>
+    <div class="char-card" id="baker-card">
+      <img class="char-img" src="../assets/images/baker.jpg" alt="illustration of a baker">
+      <div>
+        <label for="baker">Local Home Town Baker: Egbert Lodewijk</label>
+        <input class="char-input" id="baker" type="radio" name="character" value="baker" checked>
+      </div>
+    </div>
+    <div class="char-card" id="home-chef-card">
+    <img class="char-img" src="../assets/images/momChef.jpg" alt="illustration of a mom chef">
+    <div>
+      <label for="homeChef">Home Chef and Mom of 3: Nolene Katheryne</label>
+      <input class="char-input" id="homeChef" type="radio" name="character" value="homeChef">
+    </div>
+    </div>
+    <div class="char-card" id="university-card">
+    <img class="char-img" src="../assets/images/chef.jpg" alt="illustration of a chef">
+    <div>
+    <label for="university">Recent Graduate of FancyFrenchChef University: Francisque Joseph</label>
+    <input class="char-input" id="university" type="radio" name="character" value="university">
+    </div>
+    </div>
+    <button type="submit">Choose!</button>
+  </form>
+
+  <div id="page-one">
+    <h2>Local County Fair Baking Competition</h2>
+    <img src="../assets/images/fair.jpg" alt="county fair">
+    <p>Entering local county fair competition</p>
+    <form id="fair-form">
+      <label for="county-fair">Focus on looks or taste?</label>
+      <input type="radio" value="taste" name="local-comp" checked>Taste</input>
+      <input type="radio" value="looks" name="local-comp">Looks</input>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <div id="page-two">
+    <div id="fair-success">
+      <h2>1st Place!</h2>
+      <img src="../assets/images/fair-success.gif" alt="success dessert">  
+      <h3>You've gained 75 exp. point!</h3>
+    </div>
+    <div id="fair-fail">
+      <h2>Better Luck Next Time...</h2>
+      <img src="../assets/images/fail-fail.gif" alt="crying">
+      <h3>You've gained 33 exp. point!</h3>
+    </div>
+    <button type="submit">Continue</button>
+  </div>
+</body>
+</html>

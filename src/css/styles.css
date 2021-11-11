@@ -1,0 +1,38 @@
+body {
+  background-color: lightsalmon;
+  text-align: center;
+}
+
+.char-card{
+  width: 80vw;
+  margin: 1em auto;
+}
+
+.char-img {
+  max-width: 20em;
+  margin: 0 auto;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+#page-one {
+  display : none;
+}
+
+#page-two {
+  display : none;
+}
+
+#fair-success {
+  display: none;
+}
+
+#fair-fail {
+  display:none;
+}
+
+#levelUp {
+  display:none;
+}

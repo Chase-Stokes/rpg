@@ -5,6 +5,17 @@ export default class Character {
     this.presentation = presentation;
     this.baking = baking;
     this.flavors = flavors;
+    this.experience = 0;
   }
 }
+
+Character.prototype.expGain(num) = function(){
+  this.experience += num;
+  if (this.experience >= 100){
+    this.experience === 0
+    return "Level Up!"
+  }
+}
+
+
 
